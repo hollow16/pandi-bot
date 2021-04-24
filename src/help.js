@@ -1,6 +1,6 @@
 const help = (prefix) => {
 	return `
-「 *Shan Bot* 」
+「 *Pandi Bot* 」
 
 ◪ *Información*
   ❏ Comando: 「  ${prefix}  」
