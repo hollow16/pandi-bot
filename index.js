@@ -1,13 +1,13 @@
  /*
- * Benito Antonio Martínez Ocasio
- * Directamente del espacio
- * Me pongo Rolex como si fueran Casio
- * Modelo de revista sin gimnasio
- * ¡Ring, ring! La calle me llamó
+  * Benito Antonio Martínez Ocasio
+  * Directamente del espacio
+  * Me pongo Rolex como si fueran Casio
+  * Modelo de revista sin gimnasio
+  * ¡Ring, ring! La calle me llamó
 
- - Que hay de nuevo?
- * Nada
- */
+  - Que hay de nuevo?
+  * Nada
+  */
 
  const {
      WAConnection,
@@ -1312,7 +1312,7 @@
                  case 'daftar':
                      client.updatePresence(from, Presence.composing)
                      if (isUser) return reply('Ya estas registrado gordo trolo 🧐')
-                     if (args.length < 1) return reply(`Incorrecto \nCommand : ${prefix}daftar Nombre\nComando : ${prefix}daftar Shanduy`)
+                     if (args.length < 1) return reply(`Incorrecto \nCommand : ${prefix}daftar Nombre\nComando : ${prefix}daftar hollow`)
                      var reg = body.slice(8)
                      var jeneng = reg.split("|")[0];
                      var umure = reg.split("|")[1];
